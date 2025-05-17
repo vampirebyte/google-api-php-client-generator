@@ -1,6 +1,6 @@
 # Google APIs PHP Client Generator
 
-This directory is used to generate the client library service classes.
+This repo is used to generate the client library service classes and was forked from [googleapis/google-api-php-client-services](https://github.com/googleapis/google-api-php-client-services).
 
 From the root of this project run:
 
@@ -13,5 +13,7 @@ Generate the client library with the following command
 ```
 python3 -m googleapis.codegen \
   --output_dir=output \
-  --input=generator/tests/testdata/foo.v1.json
+  --input=tests/testdata/foo.v1.json \
+  --language=php \
+  --language_variant=default
 ```
