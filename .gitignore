@@ -1,0 +1,6 @@
+output/
+build/
+
+# Python for generator
+*.pyc
+*.egg-info
