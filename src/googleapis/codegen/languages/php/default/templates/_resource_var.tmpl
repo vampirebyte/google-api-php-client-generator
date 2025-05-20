@@ -1,7 +1,7 @@
 {% filter noblanklines %}
 
 {% if resource.json and resource.phpPropName %}
-  public ${{ resource.phpPropName }};
+    public ${{ resource.phpPropName }};
 {% endif %}
 
 {% for r in resource.resources %}
